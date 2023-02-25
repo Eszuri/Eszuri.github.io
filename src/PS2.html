@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="mksm cheat, mksm raw code, mksm pnach,mksm cheat aether sx2 / pcsx2">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cutewallpaper.org/24/ps2-logo-png/284218022.jpg">
+    <!-- <link rel="stylesheet" href="tailwinds.css"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>PCSX2 cheat</title>
+
+    <style>
+        img {
+            width: 30px;
+            height: 25px;
+            margin-bottom: -6px;
+        }
+
+        .ds {
+            width: 25%;
+            height: 5%;
+        }
+    </style>
+</head>
+
+<body class="bd">
+
+    <header class="noselect">
+        <main class="heder">
+            <h1 class="padd">Cheat PCSX2</h1>
+            <h6 class="mg"> ( raw code )</h5>
+                <p id="salin" class="fltlft ds" style="display: none;"> <img src="../img/ok.png"> Copied Text</p>
+        </main>
+    </header>
+
+    <!-- list -->
+    <section class="fn">
+        <details>
+            <summary onclick="view()" class="noselect">mortal kombat s.m</summary>
+            <!-- list End -->
+
+            <!-- onclick display -->
+            <span id="cp">
+
+                <textarea readonly="readonly" rows="20" cols="35" class="tx txar viewonclick" id="sss" oncopy="hscpy()"
+                    ondblclick="this.select()" id="cp11">
+gametitle = Mortal Kombat - Shaolin Monks - NTSC UC 
+
+Enable Code (Must Be On)
+patch=1,EE,902069F8,extended,00832021        
+
+ENEBLE CODE 
+patch=1,EE,F0212FAB,extended,0000000E 
+
+INFINITE BRUTALITY 
+patch=1,EE,20177640,extended,C6010004 
+patch=1,EE,20177654,extended,E4414BB8
+</textarea>
+            </span>
+        </details>
+    </section>
+
+    <!-- onclick display End -->
+
+    <a href="../index.html" class="backhome noselect">Back Home</a>
+
+    <script>
+        document.getElementById("cp").addEventListener("copy", function () {
+            document.getElementById("salin").style.display = "block";
+            setTimeout(function () {
+                document.getElementById("salin").style.display = "none";
+            }, 3000);
+        });
+    </script>
+</body>
+
+</html>

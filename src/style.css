@@ -1,0 +1,360 @@
+/* Main Css */
+
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+.onDisplay {
+    display: block;
+}
+
+.ofDisplay {
+    display: none;
+}
+
+/* -------------------------------------- */
+
+
+/* Untuk Class Navigasi / Navbar */
+#mainNav {
+    background-color: #2d7cd6;
+}
+
+/* 3 */
+#link5-a {
+    background-color: #2d7cd6;
+    color: white;
+}
+
+/* 4 */
+#view {
+    display: none;
+    padding: 3px;
+    user-select: none;
+}
+
+/* 5 */
+#view::before {
+    content: "views= ";
+}
+
+/* 6 */
+#view2 {
+    display: none;
+}
+
+/* 7 */
+#eye {
+    display: none;
+    margin-right: 10px;
+}
+
+/* 8 */
+#mainNav {
+    user-select: none;
+}
+
+/* 9 */
+.focusList {
+    padding: 2px;
+}
+
+.focusList:hover {
+    background-color: rgba(74, 150, 238, 0.8);
+}
+
+.a-nav {
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-weight: 550;
+}
+
+#rst {
+    text-decoration: none;
+    margin-left: 25px;
+    color: black;
+    font-weight: 550;
+}
+
+
+
+/* End */
+/* -------------------------------------- */
+
+
+
+
+/* Untuk Class Profil / Jumbotron*/
+.mainProfill {
+    background-color: #a4bad1;
+    padding-bottom: 2rem;
+}
+
+.mainProfil-dark {
+    background-color: #475d77;
+}
+
+#mainProfil2 {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+}
+
+/* 2 */
+#imageProfil {
+    width: 100;
+    height: 200;
+    border-radius: 8rem;
+}
+
+/* End */
+/* -------------------------------------- */
+
+
+
+
+/* Untuk Class My Hobby */
+.Hooby {
+    background-color: #f8f3fd;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+/* End */
+/* -------------------------------------- */
+
+
+
+
+/* Untuk Class About Me */
+.gweh {
+    background-color: #46c462;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+
+.gweh-dark {
+    background-color: #338b4c;
+}
+
+/* End */
+/* -------------------------------------- */
+
+
+
+
+/* Untuk Class Saran */
+.saran-a {
+    background-color: #dff9fa;
+    padding-top: 4rem;
+}
+
+/* 2 */
+button[type="submit"] {
+    background-color: #0d6efd;
+    transition: background-color 1s;
+}
+
+/* 3 */
+button[type="submit"]:hover {
+    background-color: #acc4e9;
+}
+
+/* 4 */
+.namaDark {
+    background-color: #5c5b5b;
+    color: #00ff22;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+
+/* 5 */
+.commentDark {
+    background-color: #5c5b5b;
+    color: #ffee00;
+    font-weight: 500;
+}
+
+/* 6 */
+input[type=text] {
+    border-radius: 5px;
+    border: 2px solid rgb(3, 3, 3);
+    font-weight: 500;
+    padding-right: 100px;
+}
+
+/* 7 */
+textarea {
+    border-radius: 5px;
+    border: 2px solid rgb(3, 3, 3);
+    font-weight: 500;
+    padding-right: 100px;
+}
+
+/* End */
+/* -------------------------------------- */
+
+
+
+
+/* Untuk Class Footer */
+.footerBg {
+    background-color: rgb(16, 187, 107);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/* 2 */
+.footerDark {
+    background-color: #027048;
+}
+
+/* 3 */
+.footCreateAndTh {
+    color: white;
+}
+
+/* 4 */
+#creator {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+/* 5 */
+#thRilis {
+    font-weight: bolder;
+}
+
+/* End */
+/* -------------------------------------- */
+
+
+
+
+/* Class Jam */
+#mainJam {
+    background-color: #252525;
+    text-align: center;
+}
+
+/* 2 */
+#jam {
+    color: #198754;
+    margin-top: 8px;
+}
+
+/* End */
+/* -------------------------------------- */
+
+/* Class Dark Mode */
+.darkModeIcon {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    color: white;
+    margin: 5px;
+}
+
+.darkModeIconSwitch {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    color: rgb(75, 75, 75);
+    margin: 5px;
+}
+
+.darkMode-a {
+    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    color: white;
+    margin: 5px;
+}
+
+/* .darkMode */
+.darkMode-Profil {
+    background-color: #222E35;
+    color: white;
+}
+
+/* End */
+/* -------------------------------------- */
+
+
+
+/* Class file Ps2.html */
+.bd {
+    background-color: #4f5968;
+}
+
+/* 2 */
+.noselect {
+    user-select: none;
+}
+
+/* 3 */
+header {
+    margin-top: -1.5rem;
+    width: 100vw;
+    margin-left: -0.5rem;
+}
+
+/* 3-a */
+.heder {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #0d6efd;
+    background-color: #262c35;
+}
+
+/* 4 */
+.padd {
+    padding-top: 2rem;
+}
+
+/* 5 */
+.mg {
+    margin-top: -2.5rem;
+    padding: 25px;
+    font-size: small;
+}
+
+/* 6 */
+.fn {
+    font-size: x-large;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(91, 243, 91);
+    padding: 3rem;
+}
+
+/* 7 */
+.backhome {
+    text-decoration: dashed;
+    color: #e2ff79;
+    border: 2px solid;
+    border-color: rgb(55, 194, 124);
+    border-radius: 10px;
+    font-size: larger;
+    padding: 3px;
+    background-color: rgb(26, 153, 89);
+    transition: 0.3s;
+}
+
+/* 8 */
+.backhome:hover {
+    background-color: rgba(26, 153, 89, 0.3);
+    color: rgb(108, 108, 247);
+}
+
+/* 9 */
+summary {
+    margin-left: -3rem;
+}
+
+/* End */
+/* -------------------------------------- */

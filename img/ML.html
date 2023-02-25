@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Profil</title>
+
+    <style>
+        div {
+            width: 100%;
+            height: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+
+        body,
+        html {
+            height: auto;
+            margin: 0;
+            background-color: rgb(24, 26, 18);
+        }
+
+        #please {
+            color: rgb(11, 110, 240);
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: rgb(92, 165, 78);
+            font-weight: bolder;
+        }
+
+        #please2 {
+            color: rgb(197, 216, 26);
+            text-align: center;
+            text-decoration: underline;
+            text-decoration-color: rgb(92, 165, 78);
+            font-weight: bolder;
+        }
+
+        #keep {
+            color: rgb(255, 2, 2);
+            font-size: larger;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <img src="ml.png" alt="moonton nyebelin" id="ww">
+    </div>
+
+    <p id="please">Miringkan HP antum / Rotate to Landscape</p>
+    <br>
+    <p id="please2"> <span id="keep"> Note:</span> refresh halaman jika gambar tidak muncul </p>
+
+
+    <script>
+        let y = innerHeight;
+        let x = innerWidth;
+        if (x > y) {
+            document.getElementById("ww").style.display = "block";
+            document.getElementById("please").style.display = "none";
+            document.getElementById("please2").style.display = "none";
+        }
+        if (x < y) {
+
+        }
+    </script>
+</body>
+
+</html>
